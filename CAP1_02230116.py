@@ -1,16 +1,16 @@
-#################################################################
+ ##################################################################################
 # Name: Ugyen Lhendup
 # Course: First Year B.E in ECE
 # Student ID Number: 02230116
-#################################################################
+##################################################################################
 # REFERENCES:
 # https://www.dataquest.io/blog/read-file-python/#:~:text=Python%20provides%20a%20built%2Din,we%20can%20manipulate%20its%20content
 # https://codereview.stackexchange.com/questions/281633/calculate-score-of-rock-paper-scissors-advent-of-code-2022-day-2
 # https://chat.openai.com/
-#################################################################
+#####################################################################################
 # SOLUTION
 # Solution Score: 50023
-#################################################################
+######################################################################################
 
 # Firstly I defined the function named read_input. 
 # The parameter  f_name was passed to take the name of the file
@@ -63,12 +63,12 @@ def calculate_score(results):
             outcome_score = 6
         
         # Here the score is updated till the end of the loop
-        t_score += shape_score + outcome_score
+        t_score += shape_score   + outcome_score
     # Then final total score is returned
     return t_score
 # In sumarry, the calculate_score function returns the total sum of the score
 
-# The variable result declared here stores the value of the function called passing the 
+# The variable result declared here stores the value of the function called by passing the 
 # name of the file as the argument
 results = read_input("input_6_cap1.txt")
 # The variable score stores the score by calling the calculate_score function and passing
